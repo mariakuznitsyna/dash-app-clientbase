@@ -105,5 +105,5 @@ def update_output(value):
     return 'You have selected "{}"'.format(value)
 
 
-if __name__ == "__main__":
+if __name__ == "__app__":
     app.run_server(debug=True)
