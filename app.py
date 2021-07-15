@@ -25,7 +25,8 @@ bar_chart = px.bar(
     barmode="relative"
 )
 # Create an app
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LITERA])
+app = dash.Dash(__app__, external_stylesheets=[dbc.themes.LITERA])
+server = app.server
 # Create app layout
 app.layout = html.Div([
     dbc.Row([
