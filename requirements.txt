@@ -1,3 +1,2 @@
-|-- app.py
-|-- Procfile
-|-- requirements.txt
+dash==1.17.0
+plotly==4.13.0
